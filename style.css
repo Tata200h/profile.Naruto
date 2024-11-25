@@ -76,6 +76,7 @@ nav ul li a:hover{
     border-radius: 30px;
     border: 2px solid transparent;
     transition: 0.4s;
+    margin-right: 250px;
 }
 
 .btn:hover {
@@ -146,57 +147,15 @@ left: 2%;
     left: 10%;
 }
 
-@media(max-widh:1535px){
-    header{
-        padding: 15px 3%;
-        transition: .2s;
-    }
-.content-imges{
-    padding: 0 3%;
-    transition:.2s ;
-}.scroll-down{
-    right:  3%;
-    transition: .2s;
+@media(max-widh:1023px){
+ .home,.ul,.li,.content-imges,.section,.btn,.content-texts{
+    padding: 0.5rem 0.5rem;
 
+ }
 }
-}
-@media(max-widh:1460px){
-    section{
-        padding: 0 12%;
-        transition: .2s;
-    }
-}
-@media(max-widh:1340px){
-    .content-imges img{
-        width: 100%;
-        height: auto;
-        font-size: 75px;
-        margin: 0 0 30px;
-    }
 
-.home,.btn{
-    font-size: 75px;
-    margin: 0 0 30px;
-}}
-
-@media(max-widh:1195px){
-    section{
-        padding: 0 3%;
-        transition: .2s;
-    }
-    .home,.btn{
-        padding-top: 115px;
-    }
-    .content-imges{
-        text-align: center;
-    }
-    .content-imges img{
-        width: 560px;
-        height: auto;
-    }
-    .content{
-        height: 100%;
-        gap: 1rem;
-        grid-template-columns:1fr;
+@media(max-widh:641px){
+    .body,.content-imges{
+        font-size: 12px;
     }
 }
